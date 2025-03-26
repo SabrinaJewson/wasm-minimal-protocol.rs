@@ -1,4 +1,0 @@
-[workspace]
-resolver = "2"
-members = ["crates/macro", "crates/wasi-stub"]
-default-members = ["crates/macro", "crates/wasi-stub"]
