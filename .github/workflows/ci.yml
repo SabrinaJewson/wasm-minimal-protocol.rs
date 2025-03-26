@@ -6,6 +6,12 @@ jobs:
       - run: |
           false
           echo bad
+  no_ampersands_good:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          true
+          echo good
   ampersands:
     runs-on: ubuntu-latest
     steps:
